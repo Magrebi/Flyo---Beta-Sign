@@ -2,6 +2,11 @@ body{
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+}
+
 .whole{
     display: flex;
     flex-direction: row;
@@ -13,4 +18,11 @@ body{
 
 .left-side{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-color:#2d2683;
 }
