@@ -2,9 +2,22 @@ body{
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
-header{
+
+.right-side{
+    flex: 1;
+}
+
+.container{
+    
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.social *{
+    margin-right: 25px;
+    font-size: 20px;
 }
 
 .whole{
@@ -12,9 +25,21 @@ header{
     flex-direction: row;
 }
 
-.right-side{
-    flex: 1;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sol Taraf*/
 
 .left-side{
     flex: 1;
@@ -22,7 +47,5 @@ header{
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-size: cover;
-    background-repeat: repeat-y;
     background-color:#2d2683;
 }
