@@ -1,55 +1,75 @@
-body{
+body {
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
-.right-side{
+.right-side {
     flex: 1;
     padding: 5%;
 }
 
-.whole{
+.whole {
     display: flex;
     flex-direction: row;
 }
 
 
-.container{
-    
+.container {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-.social *{
+.social * {
     margin-right: 25px;
     font-size: 20px;
 }
 
-.main-text h1{
+.main-text h1 {
     font-family: 'Raleway';
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 10%;
-    margin-top:10%;
+    margin-top: 10%;
 }
 
-.main-text p{
+.main-text p {
     font-size: 16px;
     font-weight: 400;
     color: #b5b5b5;
     margin-bottom: 10%;
 }
 
-.form h2{
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
     font-weight: 700;
     font-family: 'Raleway';
     font-size: 24px;
     margin-bottom: 10px;
 }
 
+.button {
+    text-decoration: none;
+
+}
 
 
+/* Footer*/
+
+
+.privacy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 26%;
+    font-family: 'Raleway';
+    font-size: 12px;
+}
 
 
 
@@ -61,11 +81,16 @@ body{
 
 /*Sol Taraf*/
 
-.left-side{
+.left-side {
+    
     flex: 1;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color:#2d2683;
+    background-color: #2d2683;
+}
+
+.main-img{
+    position: absolute;
 }
