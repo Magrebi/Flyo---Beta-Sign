@@ -2,22 +2,9 @@ body{
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
-
 .right-side{
     flex: 1;
-}
-
-.container{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding: 5%;
-}
-
-.social *{
-    margin-right: 25px;
-    font-size: 20px;
 }
 
 .whole{
@@ -26,7 +13,40 @@ body{
 }
 
 
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
+.social *{
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.main-text h1{
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10%;
+    margin-top:10%;
+}
+
+.main-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b5b5b5;
+    margin-bottom: 10%;
+}
+
+.form h2{
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
 
 
