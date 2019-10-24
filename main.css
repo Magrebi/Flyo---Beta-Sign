@@ -93,13 +93,16 @@ body {
 /*Sol Taraf*/
 
 .left-side {
-    
+    width: 100%;
+    height: cover;
     flex: 1;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     background-color: #2d2683;
+    background-repeat: repeat;
+
 }
 
 .main-img{
