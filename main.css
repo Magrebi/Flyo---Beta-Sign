@@ -27,6 +27,10 @@ body {
     font-size: 20px;
 }
 
+.main-text{
+    padding-right: 15%;
+}
+
 .main-text h1 {
     font-family: 'Raleway';
     font-size: 40px;
